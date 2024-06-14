@@ -35,7 +35,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "win11"
+      VERSION: "win10"
     devices:
       - /dev/kvm
     cap_add:
@@ -79,7 +79,7 @@ kubectl apply -f kubernetes.yml
 
   ```yaml
   environment:
-    VERSION: "win11"
+    VERSION: "win10"
   ```
 
   Select from the values below:
